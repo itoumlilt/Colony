@@ -1,0 +1,23 @@
+message CmStoreModule {
+    required bytes module  = 1;
+    required bytes binary = 2;
+    required bytes filepath = 3;
+}
+
+message CmRemoteProcedureCall {
+    required bytes module  = 1;
+    required bytes function = 2;
+	repeated bytes args = 3;
+}
+
+enum ResponseType {
+    ATOM = 1;
+    STRING = 2;
+	TUPLE = 3;
+}
+
+message Response {
+	required bool error = 1;
+	required ResponseType type = 2;
+	required bytes message = 3;
+}

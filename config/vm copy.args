@@ -1,0 +1,8 @@
+## Name of the node
+-name ${NODE_NAME}
+
+## Cookie for distributed erlang
+-setcookie ${COOKIE}
+
+## Directories with compiled modules
+-pa ./_build/default/lib/*/ebin releases/${REL_VSN}/consolidated

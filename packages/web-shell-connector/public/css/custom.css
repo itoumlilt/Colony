@@ -1,0 +1,36 @@
+html {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px; 
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+}
+
+.partitioned {
+    border-width: 5px;
+    border-color: red;
+    border-style : dashed;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.terminal {
+    border-style: double;
+    border-color: whitesmoke;
+    border-width: thick;
+}
+
+.container {
+    max-width: 80%;
+}

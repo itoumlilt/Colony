@@ -1,0 +1,339 @@
+﻿@ARTICLE{CAP:1,
+author = {E. Brewer},
+journal = {Computer},
+title = {CAP Twelve Years Later: How the "Rules" Have Changed},
+year = {2012},
+volume = {45},
+number = {},
+pages = {23-29},
+keywords={CAP theorem; ACID; BASE; cloud computing},
+doi = {10.1109/MC.2012.37},
+url = {doi.ieeecomputersociety.org/10.1109/MC.2012.37},
+ISSN = {0018-9162},
+month={01}
+}
+
+@inproceedings{CloneCloud:2011,
+ author = {Chun, Byung-Gon and Ihm, Sunghwan and Maniatis, Petros and Naik, Mayur and Patti, Ashwin},
+ title = {CloneCloud: Elastic Execution Between Mobile Device and Cloud},
+ booktitle = {Proceedings of the Sixth Conference on Computer Systems},
+ series = {EuroSys '11},
+ year = {2011},
+ isbn = {978-1-4503-0634-8},
+ location = {Salzburg, Austria},
+ pages = {301--314},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/1966445.1966473},
+ doi = {10.1145/1966445.1966473},
+ acmid = {1966473},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {migration, mobile cloud computing, offloading, partitioning, smartphones},
+}
+
+@article{Martin2012,
+  author    = {St{\'{e}}phane Martin and
+               Mehdi Ahmed{-}Nacer and
+               Pascal Urso},
+  title     = {Abstract unordered and ordered trees {CRDT}},
+  journal   = {CoRR},
+  volume    = {abs/1201.1784},
+  year      = {2012},
+  url       = {http://arxiv.org/abs/1201.1784},
+  archivePrefix = {arXiv},
+  eprint    = {1201.1784},
+  timestamp = {Mon, 13 Aug 2018 16:47:32 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1201-1784},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{Kleppmann2016,
+  author    = {Martin Kleppmann and
+               Alastair R. Beresford},
+  title     = {A Conflict-Free Replicated {JSON} Datatype},
+  journal   = {CoRR},
+  volume    = {abs/1608.03960},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1608.03960},
+  archivePrefix = {arXiv},
+  eprint    = {1608.03960},
+  timestamp = {Mon, 13 Aug 2018 16:48:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/KleppmannB16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@ARTICLE{Cyberforaging2017, 
+author={R. K. Balan and J. Flinn}, 
+journal={IEEE Pervasive Computing}, 
+title={Cyber Foraging: Fifteen Years Later}, 
+year={2017}, 
+volume={16}, 
+number={3}, 
+pages={24-30}, 
+keywords={ubiquitous computing;cyber foraging;pervasive computing;Mobile communication;Performance evaluation;Servers;Mobile computing;Pervasive computing;Mobile handsets;Runtime;History;ubiquitous computing;pervasive computing;special-purpose and application-based systems;computer systems organization;mobile;communication;networking;Information Technology}, 
+doi={10.1109/MPRV.2017.2940972}, 
+ISSN={1536-1268}, 
+month={},}
+
+@inproceedings{MAUI:2010,
+ author = {Cuervo, Eduardo and Balasubramanian, Aruna and Cho, Dae-ki and Wolman, Alec and Saroiu, Stefan and Chandra, Ranveer and Bahl, Paramvir},
+ title = {MAUI: Making Smartphones Last Longer with Code Offload},
+ booktitle = {Proceedings of the 8th International Conference on Mobile Systems, Applications, and Services},
+ series = {MobiSys '10},
+ year = {2010},
+ isbn = {978-1-60558-985-5},
+ location = {San Francisco, California, USA},
+ pages = {49--62},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/1814433.1814441},
+ doi = {10.1145/1814433.1814441},
+ acmid = {1814441},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {code offload, energy management, partitioning, smartphones},
+}
+
+
+@TechReport{Shapiro2011,
+  author =       {Marc Shapiro and Nuno Pregui{\c c}a and Carlos Baquero
+                  and Marek Zawirski},
+  title =        {A comprehensive study of {C}onvergent and {C}ommutative
+                  {R}eplicated {D}ata {T}ypes},
+  gs = {204}, gsdate = {2018-07-09},
+  institution =  inria,
+  year =         2011,
+  type =         rr,
+  number =       {7506},
+  address =      rocq,
+  month =        jan,
+  hal =          {http://hal.archives-ouvertes.fr/inria-00555588/},
+  url = {http://hal.inria.fr/inria-00555588},
+  pdf =          {http://lip6.fr/Marc.Shapiro/papers/Comprehensive-CRDTs-RR7506-2011-01.pdf},
+  x-language  =  en,
+  x-reporttype = rr,
+  x-repository = {svn+ssh://scm.gforge.inria.fr/svn/treedoc-src/papers/crdt-portfolio-design-RR-7506+PODC-reject_2011-01/techreport.tex}
+}
+
+@article{Shapiro2011-back,
+abstract = {Eventual consistency aims to ensure that replicas of some mutable
+shared object converge without foreground synchronisation. Previous approaches
+to eventual consistency are ad-hoc and error-prone. We study a principled
+approach: to base the design of shared data types on some simple formal
+conditions that are sufficient to guarantee eventual consistency. We call
+these types Convergent or Commutative Replicated Data Types (CRDTs). This
+paper formalises asynchronous object replication, either state based or
+operation based, and provides a sufficient condition appropriate for each
+case. It describes several useful CRDTs, including container data types
+supporting both $\backslash$add and $\backslash$remove operations with clean
+semantics, and more complex types such as graphs, montonic DAGs, and
+sequences. It discusses some properties needed to implement non-trivial
+CRDTs.},
+author = {Shapiro, Marc and Pregui, Nuno and Baquero, Carlos and Zawirski, Marek},
+file = {:home/vincent/Downloads/CRDT{\_}paper.pdf:pdf},
+keywords = {eventual consistency; optimistic replication; repl},
+mendeley-groups = {Intership},
+number = {RR-7506},
+pages = {50},
+title = {{Replicated Data Types : A comprehensive study of Convergent and Commutative Replicated Data Types}},
+url = {http://hal.inria.fr/inria-00555588},
+year = {2011}
+}
+
+@inproceedings{Berenson95,
+ author = {Berenson, Hal and Bernstein, Phil and Gray, Jim and Melton, Jim and O'Neil, Elizabeth and O'Neil, Patrick},
+ title = {A {C}ritique of {ANSI SQL} {I}solation {L}evels},
+ booktitle = {Proceedings of the 1995 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '95},
+ year = {1995},
+ isbn = {0-89791-731-6},
+ location = {San Jose, California, USA},
+ pages = {1--10},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/223784.223785},
+ doi = {10.1145/223784.223785},
+ acmid = {223785},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{Zawirski2015,
+address = {New York, New York, USA},
+author = {Zawirski, Marek and Pregui{\c{c}}a, Nuno and Duarte, S{\'{e}}rgio and Bieniusa, Annette and Balegas, Valter and Shapiro, Marc},
+booktitle = {Proceedings of the 16th Annual Middleware Conference on - Middleware '15},
+doi = {10.1145/2814576.2814733},
+file = {:home/vincent/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Zawirski et al. - 2015 - Write Fast, Read in the Past.pdf:pdf},
+isbn = {9781450336185},
+keywords = {Causal Consistency,Client-side Storage,Eventual Consistency,Fault Tolerance,Geo-replication},
+mendeley-groups = {Intership},
+pages = {75--87},
+publisher = {ACM Press},
+title = {{Write Fast, Read in the Past}},
+url = {http://dl.acm.org/citation.cfm?doid=2814576.2814733},
+year = {2015}
+}
+
+
+@inproceedings{Sovran2011,
+address = {New York, New York, USA},
+author = {Sovran, Yair and Power, Russell and Aguilera, Marcos K. and Li, Jinyang},
+booktitle = {Proceedings of the Twenty-Third ACM Symposium on Operating Systems Principles - SOSP '11},
+doi = {10.1145/2043556.2043592},
+file = {:home/vincent/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Sovran et al. - 2011 - Transactional storage for geo-replicated systems.pdf:pdf},
+isbn = {9781450309776},
+keywords = {asynchronous replication,distributed storage,geo-distributed systems,key-value store,parallel snapshot isolation,transactions},
+mendeley-groups = {Intership},
+pages = {385},
+publisher = {ACM Press},
+title = {{Transactional storage for geo-replicated systems}},
+url = {http://dl.acm.org/citation.cfm?doid=2043556.2043592},
+year = {2011}
+}
+
+@inproceedings{Dynamo2007,
+address = {New York, New York, USA},
+author = {DeCandia, Giuseppe and Hastorun, Deniz and Jampani, Madan and
+Kakulapati, Gunavardhan and Lakshman, Avinash and Pilchin, Alex and
+Sivasubramanian, Swaminathan and Vosshall, Peter and Vogels, Werner and
+DeCandia, Giuseppe and Hastorun, Deniz and Jampani, Madan and Kakulapati,
+Gunavardhan and Lakshman, Avinash and Pilchin, Alex and Sivasubramanian,
+Swaminathan and Vosshall, Peter and Vogels, Werner},
+booktitle = {Proceedings of twenty-first ACM SIGOPS symposium on Operating systems principles  - SOSP '07},
+doi = {10.1145/1294261.1294281},
+file = {:home/vincent/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/DeCandia et al. - 2007 - Dynamo.pdf:pdf},
+isbn = {9781595935915},
+issn = {0163-5980},
+keywords = {performance,reliability,scalability},
+mendeley-groups = {Intership},
+number = {6},
+pages = {205},
+publisher = {ACM Press},
+title = {{Dynamo}},
+url = {http://portal.acm.org/citation.cfm?doid=1294261.1294281},
+volume = {41},
+year = {2007}
+}
+
+
+
+@INPROCEEDINGS{Cure2016, 
+author={D. D. Akkoorath and A. Z. Tomsic and M. Bravo and Z. Li and T. Crain and A. Bieniusa and N. Preguiça and M. Shapiro}, 
+booktitle={2016 IEEE 36th International Conference on Distributed Computing Systems (ICDCS)}, 
+title={{Cure: Strong Semantics Meets High Availability and Low Latency}}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={405-414}, 
+keywords={application program interfaces;cloud computing;Cure;strong
+semantics;latency;cloud-scale applications;CAP theorem;classical CP
+databases;NoSQL-style AP databases;causal consistency;atomicity;multikey
+updates;high-level data types;developer friendly API;parallelism;NoSQL
+databases;Protocols;Databases;Clocks;Semantics;Programming;Convergence;Servers},
+doi={10.1109/ICDCS.2016.98}, 
+ISSN={1063-6927}, 
+month={June},}
+
+@inproceedings{Gentlerain2014,
+address = {New York, New York, USA},
+author = {Du, Jiaqing and Iorgulescu, Călin and Roy, Amitabha and Zwaenepoel, Willy},
+booktitle = {Proceedings of the ACM Symposium on Cloud Computing - SOCC '14},
+doi = {10.1145/2670979.2670983},
+file = {:home/vincent/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Du et al. - 2014 - GentleRain.pdf:pdf},
+isbn = {9781450332521},
+keywords = {Causal Consistency,Distributed Consistency,Geo-replication,Key Value Stores},
+mendeley-groups = {Intership},
+pages = {1--13},
+publisher = {ACM Press},
+title = {{GentleRain}},
+url = {http://dl.acm.org/citation.cfm?doid=2670979.2670983},
+year = {2014}
+}
+
+
+@inproceedings{Lloyd2011,
+address = {New York, New York, USA},
+author = {Lloyd, Wyatt and Freedman, Michael J. and Kaminsky, Michael and Andersen, David G.},
+booktitle = {Proceedings of the Twenty-Third ACM Symposium on Operating Systems Principles - SOSP '11},
+doi = {10.1145/2043556.2043593},
+file = {:home/vincent/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Lloyd et al. - 2011 - Don't settle for eventual.pdf:pdf},
+isbn = {9781450309776},
+keywords = {ALPS systems,causal + consistency,key-value storage,read transactions,scalable wide-area replication},
+mendeley-groups = {Intership},
+pages = {401},
+publisher = {ACM Press},
+title = {{Don't settle for eventual}},
+url = {http://dl.acm.org/citation.cfm?doid=2043556.2043593},
+year = {2011}
+}
+
+
+@misc{Du2013,
+abstract = {Clock-SI is a fully distributed protocol that implements$\backslash$nsnapshot isolation (SI) for partitioned data stores. It$\backslash$nderives snapshot and commit timestamps from loosely$\backslash$nsynchronized clocks, rather than from a centralized$\backslash$ntimestamp authority as used in current systems. A$\backslash$ntransaction obtains its snapshot timestamp by reading the$\backslash$nclock at its originating partition and Clock-SI provides$\backslash$nthe corresponding consistent snapshot across all the$\backslash$npartitions. In contrast to using a centralized timestamp$\backslash$nauthority, Clock-SI has availability and performance$\backslash$nbenefits: It avoids a single point of failure and a$\backslash$npotential performance bottleneck, and improves$\backslash$ntransaction latency and throughput. We develop an$\backslash$nanalytical model to study the trade-offs introduced by$\backslash$nClock-SI among snapshot age, delay probabilities of$\backslash$ntransactions, and abort rates of update transactions. We$\backslash$nverify the model predictions using a system$\backslash$nimplementation. Furthermore, we demonstrate the$\backslash$nperformance benefits of Clock-SI experimentally using a$\backslash$nmicro-benchmark and an application-level benchmark on a$\backslash$npartitioned key-value store. For short read-only$\backslash$ntransactions, Clock-SI improves latency and throughput by$\backslash$n50{\%} by avoiding communications with a centralized$\backslash$ntimestamp authority. With a geographically partitioned$\backslash$ndata store, Clock-SI reduces transaction latency by more$\backslash$nthan 100 milliseconds. Moreover, the performance benefits$\backslash$nof Clock-SI come with higher availability.},
+author = {Du, Jiaqing and Elnikety, Sameh and Zwaenepoel, Willy},
+booktitle = {Proceedings of the IEEE Symposium on Reliable Distributed Systems},
+doi = {10.1109/SRDS.2013.26},
+file = {:home/vincent/Downloads/clocksi.pdf:pdf},
+isbn = {9780769551159},
+issn = {10609857},
+keywords = {Distributed transactions,Loosely synchronized clocks,Partitioned data,Snapshot isolation},
+mendeley-groups = {Intership},
+pages = {173--184},
+title = {{Clock-SI: Snapshot isolation for partitioned data stores using loosely synchronized clocks}},
+url = {https://infoscience.epfl.ch/record/187553?ln=fr},
+year = {2013}
+}
+
+
+
+@inproceedings{FMKE2017,
+address = {New York, New York, USA},
+author = {Tom{\'{a}}s, Gon{\c{c}}alo and Zeller, Peter and Balegas, Valter and Akkoorath, Deepthi and Bieniusa, Annette and Leit{\~{a}}o, Jo{\~{a}}o and Pregui{\c{c}}a, Nuno},
+booktitle = {Proceedings of the 3rd International Workshop on Principles and Practice of Consistency for Distributed Data  - PaPoC'17},
+doi = {10.1145/3064889.3064897},
+file = {:home/vincent/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tom{\'{a}}s et al. - 2017 - FMKe.pdf:pdf},
+isbn = {9781450349338},
+keywords = {Benchmark,Key-Value Store},
+mendeley-groups = {Intership},
+pages = {1--4},
+publisher = {ACM Press},
+title = {{FMKe}},
+url = {http://dl.acm.org/citation.cfm?doid=3064889.3064897},
+year = {2017}
+}
+
+
+@article{Dirac1953888,
+  title   = "The lorentz transformation and absolute time",
+  journal = "Physica ",
+  volume  = "19",
+  number  = "1-–12",
+  pages   = "888--896",
+  year    = "1953",
+  doi     = "10.1016/S0031-8914(53)80099-6",
+  author  = "P.A.M. Dirac"
+}
+
+@article{Feynman1963118,
+  title   = "The theory of a general quantum system interacting with a linear dissipative system",
+  journal = "Annals of Physics ",
+  volume  = "24",
+  pages   = "118--173",
+  year    = "1963",
+  doi     = "10.1016/0003-4916(63)90068-X",
+  author  = "R.P Feynman and F.L {Vernon Jr.}"
+}
+
+@article{Ranganathan2004,
+author = {Ranganathan, Kavitha and Foster, Ian},
+doi = {10.1023/A:1024035627870},
+file = {:home/vincent/Downloads/Computation{\_}Sched{\_}Data{\_}Replication.pdf:pdf},
+isbn = {1-4020-7575-8},
+journal = {Grid Resource Management},
+number = {1},
+pages = {359--373},
+title = {{Computation scheduling and data replication algorithms for data Grids}},
+url = {http://portal.acm.org/citation.cfm?id=976113.976136},
+volume = {1},
+year = {2004}
+}
